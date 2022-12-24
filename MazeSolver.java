@@ -1,5 +1,4 @@
 /**
- * Name : Saman Zarei
  * The purpose of this file is to find a path from start 
  * to end so that, the path minimizes the cost from start to end.
  * This implementation will happen by dijkstra's algorithm
