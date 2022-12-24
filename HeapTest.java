@@ -1,5 +1,4 @@
 /**
- * Name: Saman Zarei
  * The purpose of this file is check the correctness of 
  * heap class by some test methods.
  */
