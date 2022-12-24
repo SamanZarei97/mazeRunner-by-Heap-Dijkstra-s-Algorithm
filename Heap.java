@@ -1,5 +1,4 @@
 /**
- * Name: Saman Zarei
  * The purpose of this class is implementing the methods
  * that are required to create a max & min heap.
  */
