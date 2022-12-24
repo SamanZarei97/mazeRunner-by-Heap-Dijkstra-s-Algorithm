@@ -1,5 +1,4 @@
 /**
- * Name: Saman Zarei
  * The purpose of this file is testing the MazeSolver class
  * to confirm its correctness of implementation.
  */
