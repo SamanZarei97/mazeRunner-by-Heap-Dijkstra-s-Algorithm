@@ -25,10 +25,10 @@ public class HeapTest {
 		Heap<Integer, String> list = new Heap<Integer, String>(Collections.reverseOrder
 				(Integer::compare));
 		
-		list.add(5, "Saman");
+		list.add(5, "Sam");
 		list.add(2, "Yasi");
 		list.add(3, "Kamand");
-		list.add(4, "Bita");
+		list.add(4, "nim");
 		list.add(1, "Keyvan");
 		
 		assertEquals(5, list.toArray().size());
@@ -48,7 +48,7 @@ public class HeapTest {
 		
 		list.add(7, "Yasi");
 		list.add(6, "Kamand");
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(3, "Amos");
 		list.add(2, "Hooman");
@@ -68,7 +68,7 @@ public class HeapTest {
 		
 		Heap<Integer, String> list = new Heap<Integer, String>(Integer::compare);
 		
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(2, "Hooman");
 		list.add(1, "Barbod");
@@ -93,7 +93,7 @@ public class HeapTest {
 		
 		list.add(7, "Yasi");
 		list.add(6, "Kamand");
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(3, "Amos");
 		list.add(2, "Hooman");
@@ -115,7 +115,7 @@ public class HeapTest {
 		
 		list.add(7, "Yasi");
 		list.add(6, "Kamand");
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(3, "Amos");
 		list.add(2, "Hooman");
@@ -138,7 +138,7 @@ public class HeapTest {
 		
 		list.add(7, "Yasi");
 		list.add(6, "Kamand");
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(3, "Amos");
 		list.add(2, "Hooman");
@@ -168,7 +168,7 @@ public class HeapTest {
 		
 		list.add(7, "Yasi");
 		list.add(6, "Kamand");
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(3, "Amos");
 		list.add(2, "Hooman");
@@ -194,7 +194,7 @@ public class HeapTest {
 		
 		list.add(7, "Yasi");
 		list.add(6, "Kamand");
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(3, "Amos");
 		list.add(2, "Hooman");
@@ -204,7 +204,7 @@ public class HeapTest {
 		assertEquals("Hooman", list.poll().value);
 		assertEquals("Amos", list.poll().value);
 		assertEquals("Keyvan", list.poll().value);
-		assertEquals("Bita", list.poll().value);
+		assertEquals("nim", list.poll().value);
 		assertEquals("Kamand", list.poll().value);
 		assertEquals("Yasi", list.poll().value);
 		
@@ -220,7 +220,7 @@ public class HeapTest {
 		
 		Heap<Integer, String> list = new Heap<Integer, String>(Integer::compare);
 		
-		list.add(5, "Bita");
+		list.add(5, "nim");
 		list.add(4, "Keyvan");
 		list.add(2, "Hooman");
 		list.add(1, "Barbod");
@@ -230,7 +230,7 @@ public class HeapTest {
 		
 		assertEquals("Yasi", list.poll().value);
 		assertEquals("Kamand", list.poll().value);
-		assertEquals("Bita", list.poll().value);
+		assertEquals("nim", list.poll().value);
 		assertEquals("Keyvan", list.poll().value);
 		assertEquals("Amos", list.poll().value);
 		assertEquals("Hooman", list.poll().value);
